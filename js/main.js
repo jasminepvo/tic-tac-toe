@@ -9,6 +9,10 @@ let player2 = document.querySelector(".player-2");
 
 //Player 1
 player1.addEventListener("click", (event) => {
+	player1.classList.add('button-clicked');
+	player2.classList.remove('button-clicked');
+
+
 	//Loop through indexes and allow player to click each box
 	for (let i = 0; i < gridIndex.length; i++) {
 		gridIndex[i].addEventListener("click", (event) => {
@@ -20,10 +24,8 @@ player1.addEventListener("click", (event) => {
 //Player 2
 
 player2.addEventListener("click", (event) => {
-	console.log("I am player 2");
-
-	/*when player 2 clicks button, I want whenever they click a
-  box, for it to show O*/
+	player1.classList.remove('button-clicked');
+	player2.classList.add('button-clicked');
 
 	for (let i = 0; i < gridIndex.length; i++) {
 		gridIndex[i].addEventListener("click", (event) => {
