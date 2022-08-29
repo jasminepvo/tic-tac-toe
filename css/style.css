@@ -48,6 +48,9 @@ video {
 body {
 	/* border: 2px solid lightblue; */
 	font-family: var(--font);
+	text-align: center;
+	background: var(--main-darkgrey);
+	color: var(--main-white);
 }
 a {
 	text-decoration: none;
@@ -55,24 +58,32 @@ a {
 li {
 	list-style: none;
 }
+button {
+	background-color: var(--main-grey);
+	color: var(--main-white);
+	border: none;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5%;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 section {
-	height: 50%;
+	height: 350px;
 	width: 100%;
 }
 .game-container {
-	border: 2px solid salmon;
+	border: 3px solid var(--main-grey);
 	height: 300px;
 	width: 300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	margin: auto;
 }
 .box {
-	border: 2px solid lavender;
+	outline: 2px solid var(--main-grey);
 }
-
 .index-0 {
 	/*   background: red; */
 }

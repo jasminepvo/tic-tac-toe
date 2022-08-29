@@ -9,7 +9,7 @@ let player2 = document.querySelector(".player-2");
 
 //Player 1
 player1.addEventListener("click", (event) => {
-	//Loop through indexes and allow player to click any box
+	//Loop through indexes and allow player to click each box
 	for (let i = 0; i < gridIndex.length; i++) {
 		gridIndex[i].addEventListener("click", (event) => {
 			gridIndex[i].innerText = "X";
@@ -17,7 +17,7 @@ player1.addEventListener("click", (event) => {
 	}
 });
 
-//player 2
+//Player 2
 
 player2.addEventListener("click", (event) => {
 	console.log("I am player 2");
@@ -30,8 +30,4 @@ player2.addEventListener("click", (event) => {
 			gridIndex[i].innerText = "O";
 		});
 	}
-
-	// gridIndex[0].addEventListener("click", (event) => {
-	//   gridIndex[0].innerText = "O";
-	// });
 });
