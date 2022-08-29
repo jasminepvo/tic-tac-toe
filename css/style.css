@@ -58,11 +58,6 @@ li {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-}
-
-footer {
-}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -84,13 +79,10 @@ footer {
 
 /* On laptop, please keep the normal layout, but everything should be light green */
 /* @media all and (min-width: 820px) {
-  * {
-    
-  }
-} */
+  
+} *
 
 /* On larger screens, please keep the normal layout, but everything should be light blue */
 /* @media all and (min-width: 1024px) {
-  * {
-  }
+  
 } */
