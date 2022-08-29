@@ -107,6 +107,15 @@ section {
 	transition: 0.8s;
 }
 
+.grid-index span {
+	font-weight: bold;
+	font-size: 2rem;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 footer {
 	position: relative;
 	bottom: 10px;

@@ -16,7 +16,7 @@ player1.addEventListener("click", (event) => {
 	//Loop through indexes and allow player to click each box
 	for (let i = 0; i < gridIndex.length; i++) {
 		gridIndex[i].addEventListener("click", (event) => {
-			gridIndex[i].innerText = "X";
+			gridIndex[i].querySelector('span').innerText = "X";
 		});
 	}
 });
@@ -29,7 +29,7 @@ player2.addEventListener("click", (event) => {
 
 	for (let i = 0; i < gridIndex.length; i++) {
 		gridIndex[i].addEventListener("click", (event) => {
-			gridIndex[i].innerText = "O";
+			gridIndex[i].querySelector('span').innerText = "O";
 		});
 	}
 });
