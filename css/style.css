@@ -52,6 +52,15 @@ body {
 	background: var(--main-darkgrey);
 	color: var(--main-white);
 }
+
+main {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 a {
 	text-decoration: none;
 	color: var(--main-grey);
