@@ -23,11 +23,11 @@ No matter what your experience level, being an engineer means continuously learn
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
+**Manifest:** https://github.com/jasminepvo/manifest
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+**Etch A Sketch:** https://github.com/jasminepvo/etch-a-sketch
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**Rock Paper Scissors:** https://github.com/jasminepvo/rock-paper-scissors
 
 
 
