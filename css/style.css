@@ -54,6 +54,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: var(--main-grey);
 }
 li {
 	list-style: none;
@@ -87,37 +88,37 @@ section {
 .index-0 {
 	/*   background: red; */
 }
-
 .index-1 {
 	/*   background: red; */
 }
-
 .index-2 {
 	/*   background: red; */
 }
-
 .index-3 {
 	/*   background: red; */
 }
-
 .index-4 {
 	/*   background: red; */
 }
-
 .index-5 {
 	/*   background: red; */
 }
-
 .index-6 {
 	/*   background: red; */
 }
-
 .index-7 {
 	/*   background: red; */
 }
-
 .index-8 {
 	/*   background: red; */
+}
+
+.instructions {
+	height: 30%;
+}
+footer {
+	position: relative;
+	bottom: 10px;
 }
 /******************************************
 /* ADDITIONAL STYLES
