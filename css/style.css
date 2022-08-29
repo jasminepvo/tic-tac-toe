@@ -52,10 +52,25 @@ body {
 	background: var(--main-darkgrey);
 	color: var(--main-white);
 }
+
+main {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 a {
 	text-decoration: none;
 	color: var(--main-grey);
 }
+
+a:hover {
+	color: var(--main-white);
+	transition: 0.3s ease-in;
+}
+
 li {
 	list-style: none;
 }
@@ -66,7 +81,9 @@ button {
 	margin: 10px;
 	padding: 10px;
 	border-radius: 5%;
+	cursor: pointer;
 }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -85,37 +102,29 @@ section {
 .box {
 	outline: 2px solid var(--main-grey);
 }
-.index-0 {
-	/*   background: red; */
-}
-.index-1 {
-	/*   background: red; */
-}
-.index-2 {
-	/*   background: red; */
-}
-.index-3 {
-	/*   background: red; */
-}
-.index-4 {
-	/*   background: red; */
-}
-.index-5 {
-	/*   background: red; */
-}
-.index-6 {
-	/*   background: red; */
-}
-.index-7 {
-	/*   background: red; */
-}
-.index-8 {
-	/*   background: red; */
-}
 
 .instructions {
 	height: 30%;
 }
+
+.grid-index {
+	cursor: pointer;
+}
+
+.grid-index:hover {
+	background: var(--main-grey);
+	transition: 0.8s;
+}
+
+.grid-index span {
+	font-weight: bold;
+	font-size: 2rem;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 footer {
 	position: relative;
 	bottom: 10px;
@@ -147,3 +156,8 @@ footer {
 /* @media all and (min-width: 1024px) {
   
 } */
+
+.button-clicked {
+	background-color: var(--main-darkgrey);
+	transition: 0.1s;
+}
