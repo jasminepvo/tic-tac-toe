@@ -4,7 +4,7 @@ This was a team effort to create an online version of the beloved game, Tic Tac 
 **Link to project:** https://teamtictactoe.netlify.app/
 
 ![Screen Shot 2022-08-29 at 7 37 06 PM](https://user-images.githubusercontent.com/99847030/187317001-cbdc6f98-0327-4312-a298-611c092e09c4.jpg)
-9315800b-a995-438f-82d7-994a15d8a129.jpg)
+
 
 ## How It's Made:
 
