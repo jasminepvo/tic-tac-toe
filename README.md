@@ -1,33 +1,27 @@
 # My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+This was a team effort to create an online version of the beloved game, Tic Tac Toe. Use this to play with 2 people!
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://teamtictactoe.netlify.app/
 
-![alt tag](http://placecorgi.com/1200/650)
+![Screen Shot 2022-08-29 at 6 35 22 PM](https://user-images.githubusercontent.com/99847030/187310745-9315800b-a995-438f-82d7-994a15d8a129.jpg)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+We started off using VSCode Live Share as a way to code together but quickly discovered there wasn't an option for both parties to preview the changes made live. Glitch was the optimal source to effectively work as a team while using Discord to talk. We started off with simple aspects then built on. At first, we used HTML & CSS to create a plain 3x3 box using css grid. Then we began thinking through the logic of the game in the smallest steps possible.<br> 
+1. We want to click a box to mark either X or O so we grabbed the first box and added an event listener to see if we could get it to display 'X'.<br>
+2. Then we repeated that for 'O'.<br>
+3. How do we make it so the player is clicking 'X' or 'O'? Well then we needed to add an option to choose whether you are player 1 or player 2 so we added buttons to the HTML. <br>
+4. How do we make player 1 click X and player 2 click O? We assigned an event listener on each button to the appropriate function. <br>
+5. Well now we are repeating the same code for each box which is 9 times. How do we avoid this? We used queryselectorall to grab every box and put it into an array. Now we can loop through each box and iterate where we want to mark 'X' or 'O'.<br>
+6. The game works but can be cheated so we added instructions on how to play.
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+We need to refactor the code to be OOP (object oriented programming) and follow the four pillars of encapsulation, abstraction, inheritance and polymorphism.
+We also plan to add a check method to determine whether the player can only select boxes that are empty AND a method to check who won. 
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Manifest:** https://github.com/jasminepvo/manifest
-
-**Etch A Sketch:** https://github.com/jasminepvo/etch-a-sketch
-
-**Rock Paper Scissors:** https://github.com/jasminepvo/rock-paper-scissors
-
-
-
+We learned how to pair program and work together as a team. We walked through our ideas out loud and the thought process behind it, then came up with a solution. We learned how to collaborate with one another if an effective way with clear communication. Most importantly, we had fun! Especially when we got each step to work! 
