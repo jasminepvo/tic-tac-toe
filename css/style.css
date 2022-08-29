@@ -59,7 +59,7 @@ li {
 /* LAYOUT
 /*******************************************/
 section {
-	height: 100%;
+	height: 50%;
 	width: 100%;
 }
 .game-container {
@@ -71,6 +71,42 @@ section {
 }
 .box {
 	border: 2px solid lavender;
+}
+
+.index-0 {
+	/*   background: red; */
+}
+
+.index-1 {
+	/*   background: red; */
+}
+
+.index-2 {
+	/*   background: red; */
+}
+
+.index-3 {
+	/*   background: red; */
+}
+
+.index-4 {
+	/*   background: red; */
+}
+
+.index-5 {
+	/*   background: red; */
+}
+
+.index-6 {
+	/*   background: red; */
+}
+
+.index-7 {
+	/*   background: red; */
+}
+
+.index-8 {
+	/*   background: red; */
 }
 /******************************************
 /* ADDITIONAL STYLES
