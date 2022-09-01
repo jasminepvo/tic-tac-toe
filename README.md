@@ -1,4 +1,4 @@
-# My Awesome Project
+# Tic Tac Toe
 This was a team effort to create an online version of the beloved game, Tic Tac Toe. Use this to play with 2 people!
 
 **Link to project:** https://teamtictactoe.netlify.app/
